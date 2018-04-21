@@ -1,0 +1,47 @@
+Note:  Changing of the uupper limit and lower limit of the cost for the basic service package in high end product.
+
+2016-12-06 10:23:31.051 INFO: Loggers configured with null [org.uma.jmetal.util.JMetalLogger configureLoggers]
+2016-12-06 10:23:31.128 INFO: Total execution time: 345ms [org.uma.jmetal.runner.multiobjective.NSGAIIIntegerRunner main]
+
+
+62.690000000000005 : 70.375
+19.259999999999998 : 78.8
+24.54 : 71.0
+29.190000000000005 : 70.9375
+14.660000000000002 : 80.875
+
+2016-12-06 10:23:31.147 INFO: Random seed: 1480991010648 [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-06 10:23:31.149 INFO: Objectives values have been written to file FUN.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+
+List<Integer> lowerLimit = Arrays.asList(200, 200, 2, 50, 1, 3500, 1500, 400, 100, 12);
+List<Integer> upperLimit = Arrays.asList( 1200, 2000, 8, 100, 3, 4000, 2000, 600, 200, 16);
+
+
+fun > 10 && fun <  100
+fun > 50 && fun < 200
+
+
+Variable
+363 871 6 82 2 3541 1961 596 142 16 
+238 269 2 85 2 3561 1960 567 148 15 
+209 295 3 74 1 3514 1992 590 133 15 
+232 397 4 85 3 3527 1962 574 144 16 
+201 225 2 76 3 3545 1929 448 126 16 
+
+
+2016-12-06 10:23:31.150 INFO: Variables values have been written to file VAR.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-06 10:23:31.175 INFO: 
+Hypervolume (N) : 0.28711228813096373
+Hypervolume     : 0.0
+Epsilon (N)     : 0.5823888404533568
+Epsilon         : 6.6800000000000015
+GD (N)          : 0.7802432774632395
+GD              : 9.009417302331547
+IGD (N)         : 0.20109076038159787
+IGD             : 4.298917330445221
+IGD+ (N)        : 0.2637009981416519
+IGD+            : 3.770154403426639
+Spread (N)      : 0.9333932646836586
+Spread          : 0.8956679883229451
+Error ratio     : 1.0
+ [org.uma.jmetal.runner.AbstractAlgorithmRunner printQualityIndicators]

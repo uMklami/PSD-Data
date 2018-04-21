@@ -1,0 +1,68 @@
+
+
+@relation MachineLearningIntro
+@attribute Age 			{'19-25', '26-32', '33-49'}
+@attribute Gender		{Male, Female}
+@attribute Education 	{Diploma, BacDg, PostGd}
+@attribute Salary		{Below_1000, 1001-2000, 2001-3000, 3001-4000, 4001_Above}
+@attribute Occupation 	{Study,Work}
+@attribute Weight		{120,130,140,170,190,200}
+@attribute Display		{4,4.5,5,5.5,6,7}
+@attribute Camera		{20,16,12,10,8,4}
+@attribute Battery		{3000,2800,2500,2300,1800,1400}
+@attribute RAM			{3,2,1}
+@attribute
+@attribute ServiceClass {Bsc,Stndrd,Prmm}
+
+
+33-49,Female,PostGd,4001_Above,Work,130,4.5,16,2800,3,Bsc
+19-25,Female,BacDg,Below_1000,Study,130,4.5,16,2800,3,Stndrd
+26-32,Female,PostGd,Below_1000,Study,130,4.5,16,2800,3,Prmm
+33-49,Male,PostGd,4001_Above,Study,130,4.5,16,2800,3,Bsc
+33-49,Male,BacDg,4001_Above,Study,130,4.5,16,2800,3,Bsc
+33-49,Female,PostGd,2001-3000,Study,130,4.5,16,2800,3,Stndrd
+26-32,Male,PostGd,2001-3000,Study,130,4.5,16,2800,3,Bsc
+26-32,Female,PostGd,2001-3000,Study,120,4,20,3000,3,Bsc
+26-32,Female,PostGd,3001-4000,Work,120,4,20,3000,3,Stndrd
+26-32,Female,PostGd,1001-2000,Study,120,4,20,3000,3,Bsc
+33-49,Male,BacDg,4001_Above,Work,120,4,20,3000,3,Stndrd
+26-32,Female,PostGd,Below_1000,Study,120,4,20,3000,3,Bsc
+19-25,Male,BacDg,Below_1000,Study,120,4,20,3000,3,Bsc
+26-32,Male,PostGd,2001-3000,Study,120,4,20,3000,3,Bsc
+26-32,Male,BacDg,4001_Above,Work,120,4,20,3000,3,Stndrd
+26-32,Female,PostGd,Below_1000,Study,120,4,20,3000,3,Bsc
+33-49,Male,BacDg,3001-4000,Work,140,5,12,2500,2,Prmm
+26-32,Female,PostGd,2001-3000,Study,140,5,12,2500,2,Bsc
+26-32,Female,PostGd,2001-3000,Study,140,5,12,2500,2,Prmm
+19-25,Female,BacDg,2001-3000,Work,140,5,12,2500,2,Bsc
+26-32,Female,PostGd,1001-2000,Study,140,5,12,2500,2,Prmm
+33-49,Female,BacDg,Below_1000,Work,140,5,12,2500,2,Bsc
+19-25,Male,Diploma,Below_1000,Study,140,5,12,2500,2,Prmm
+33-49,Male,PostGd,4001_Above,Work,140,5,12,2500,2,Prmm
+26-32,Male,PostGd,4001_Above,Work,140,5,12,2500,2,Stndrd
+19-25,Female,BacDg,2001-3000,Work,170,5.5,10,2300,2,Stndrd
+26-32,Female,PostGd,1001-2000,Study,170,5.5,10,2300,2,Prmm
+33-49,Female,BacDg,Below_1000,Work,170,5.5,10,2300,2,Bsc
+19-25,Male,Diploma,Below_1000,Study,170,5.5,10,2300,2,Bsc
+33-49,Male,PostGd,4001_Above,Work,170,5.5,10,2300,2,Prmm
+26-32,Male,PostGd,4001_Above,Work,170,5.5,10,2300,2,Stndrd
+26-32,Male,BacDg,3001-4000,Work,170,5.5,10,2300,2,Bsc
+33-49,Male,PostGd,4001_Above,Work,170,5.5,10,2300,2,Prmm
+26-32,Male,PostGd,2001-3000,Work,190,6,8,1800,1,Stndrd
+26-32,Male,BacDg,3001-4000,Work,190,6,8,1800,1,Stndrd
+26-32,Female,PostGd,4001_Above,Work,190,6,8,1800,1,Bsc
+26-32,Female,PostGd,1001-2000,Study,190,6,8,1800,1,Bsc
+33-49,Female,PostGd,4001_Above,Work,190,6,8,1800,1,Bsc
+19-25,Female,BacDg,Below_1000,Study,190,6,8,1800,1,Stndrd
+26-32,Female,PostGd,Below_1000,Study,190,6,8,1800,1,Prmm
+33-49,Male,PostGd,4001_Above,Study,190,6,8,1800,1,Bsc
+26-32,Female,PostGd,Below_1000,Study,200,7,4,1400,1,Bsc
+26-32,Male,PostGd,4001_Above,Work,200,7,4,1400,1,Stndrd
+26-32,Male,PostGd,2001-3000,Work,200,7,4,1400,1,Stndrd
+26-32,Male,BacDg,3001-4000,Work,200,7,4,1400,1,Prmm
+26-32,Female,PostGd,4001_Above,Work,200,7,4,1400,1,Bsc
+26-32,Female,PostGd,1001-2000,Study,200,7,4,1400,1,Bsc
+33-49,Female,PostGd,4001_Above,Work,200,7,4,1400,1,Bsc
+19-25,Female,BacDg,Below_1000,Study,200,7,4,1400,1,Stndrd
+26-32,Female,PostGd,Below_1000,Study,200,7,4,1400,1,Prmm
+33-49,Male,PostGd,4001_Above,Study,200,7,4,1400,1,Bsc

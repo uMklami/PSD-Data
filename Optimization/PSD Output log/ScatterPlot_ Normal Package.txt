@@ -1,0 +1,79 @@
+package org.fptv.graph;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.ScatterChart;
+import javafx.scene.chart.XYChart;
+import javafx.stage.Stage;
+
+public class ScatterPlot extends Application {
+
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@Override
+	public void start(Stage stage) {
+		stage.setTitle("Product - Service Package");
+		final NumberAxis xAxis = new NumberAxis(0, 40, 1);
+		final NumberAxis yAxis = new NumberAxis(10, 80, 2);
+		final ScatterChart<Number, Number> sc = new ScatterChart<>(xAxis, yAxis);
+		xAxis.setLabel("Service Price (RM)");
+		yAxis.setLabel("Product Price (RM)");
+		sc.setTitle("Service( Call Extensive) Package for Different Product Category");
+
+		XYChart.Series series1 = new XYChart.Series();
+		series1.setName("High-end");
+
+		series1.getData().add(new XYChart.Data(12.2, 49.41666667));
+		series1.getData().add(new XYChart.Data(13.45, 48.54545455));
+		series1.getData().add(new XYChart.Data(22.9, 46.73913043));
+		series1.getData().add(new XYChart.Data(10.8, 52.25));
+		// series1.getData().add(new XYChart.Data(19.6, 48.43478261));
+		// series1.getData().add(new XYChart.Data(14.25, 49.08695652));
+		// series1.getData().add(new XYChart.Data(21.65, 47.45454545));
+		// series1.getData().add(new XYChart.Data(19.65, 48.04347826));
+		// series1.getData().add(new XYChart.Data(14.25, 49.08695652));
+		// series1.getData().add(new XYChart.Data(27.65, 44.95652174));
+		// series1.getData().add(new XYChart.Data(21.9, 45.95652174));
+		// series1.getData().add(new XYChart.Data(11.25, 54.08695652));
+		// series1.getData().add(new XYChart.Data(17.93, 65.18));
+		// series1.getData().add(new XYChart.Data(17.93, 65.1875));
+		// series1.getData().add(new XYChart.Data(18.74, 64.625));
+		// series1.getData().add(new XYChart.Data(20.73, 64.5));
+
+		XYChart.Series series2 = new XYChart.Series();
+		series2.setName("Mid-end");
+		series2.getData().add(new XYChart.Data(13, 39.25));
+		series2.getData().add(new XYChart.Data(12.24, 41.87999));
+		series2.getData().add(new XYChart.Data(16.8, 34.78));
+		series2.getData().add(new XYChart.Data(14.65, 38.13043478));
+		series2.getData().add(new XYChart.Data(18.8, 35.22727273));
+		// ries2.getData().add(new XYChart.Data(27.1, 56.29166667));
+		// series2.getData().add(new XYChart.Data(17.16, 65.4375));
+		// series2.getData().add(new XYChart.Data(17.93, 65.1875));
+		// series2.getData().add(new XYChart.Data(17.93, 65.1875));
+		// series2.getData().add(new XYChart.Data(18.74, 64.625));
+		// series2.getData().add(new XYChart.Data(20.73, 64.5));
+
+		XYChart.Series series3 = new XYChart.Series();
+		series3.setName(" Low-end ");
+		series3.getData().add(new XYChart.Data(19.9, 30.78));
+		series3.getData().add(new XYChart.Data(11.8, 29.95));
+		series3.getData().add(new XYChart.Data(13.7, 27.6));
+		series3.getData().add(new XYChart.Data(10.2, 33.8));
+		// series3.getData().add(new XYChart.Data(11.4, 47.69565217));
+		// series3.getData().add(new XYChart.Data(28.78, 69.375));
+		// series3.getData().add(new XYChart.Data(44.75, 66.9375));
+		// series3.getData().add(new XYChart.Data(40.82, 188.66));
+		// series3.getData().add(new XYChart.Data(40.79, 173.56));
+		// series3.getData().add(new XYChart.Data(40.30, 170.75));
+
+		sc.getData().addAll(series1, series2, series3);
+		Scene scene = new Scene(sc, 500, 400);
+		stage.setScene(scene);
+		stage.show();
+	}
+
+	public static void main(String[] args) {
+		launch(args);
+	}
+}

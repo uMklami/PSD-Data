@@ -1,0 +1,86 @@
+List<Integer> lowerLimit = Arrays.asList(100, 100, 1, 10, 1, 3500, 1500, 400, 100, 12);
+List<Integer> upperLimit = Arrays.asList(1000, 1000, 10 ,100, 3, 4000, 2000, 600, 200, 24);
+
+
+High end product
+
+crossover - 0.8, mutation- 0.4, maxEva - 2500, population - 500
+if (fun > 10 && fun <  50) 
+{fun1 = fun;
+							}
+						}else{
+							if(fun > 30 && fun < 70){
+
+
+2017-02-13 17:30:43.180 INFO: Random seed: 1486978242314 [org.product_service.SolutionUtils printFinalSolutionSet]
+2017-02-13 17:30:43.182 INFO: Objectives values have been written to file FUN.tsv [org.product_service.SolutionUtils printFinalSolutionSet]
+2017-02-13 17:30:43.183 INFO: Variables values have been written to file VAR.tsv [org.product_service.SolutionUtils printFinalSolutionSet]
+2017-02-13 17:30:43.207 INFO: 
+Hypervolume (N) : 0.7601332728667194
+Hypervolume     : 0.0
+Epsilon (N)     : 0.11944202266782922
+Epsilon         : 1.370000000000001
+GD (N)          : 0.20899100408129384
+GD              : 4.6384419604771026
+IGD (N)         : 0.14357570867591452
+IGD             : 2.3384120547146297
+IGD+ (N)        : 0.022522522522522515
+IGD+            : 0.25833333333333314
+Spread (N)      : 0.7906059955018953
+Spread          : 0.8469773785140563
+Error ratio     : 1.0
+ [org.uma.jmetal.runner.AbstractAlgorithmRunner printQualityIndicators]
+
+ 
+12.549999999999999 74.4090909090909 
+23.5 50.26086956521739 
+
+
+19.25 50.73913043478261 
+
+13.15 57.45454545454545 
+
+
+
+
+114 134 1 70 2 3892 1950 528 116 17 
+114 134 1 70 2 3892 1950 528 116 17 
+135 140 3 97 2 3892 1784 594 123 22 
+106 374 1 58 1 3518 1946 589 173 23 
+106 374 3 58 1 3516 1983 589 121 23 
+114 134 1 70 2 3892 1950 528 116 17 
+158 195 1 63 1 3509 1968 497 123 23 
+113 134 1 63 2 3892 1950 536 152 19 
+135 140 3 91 2 3660 1925 594 123 22 
+114 134 1 70 2 3892 1950 528 116 17 
+
+
+
+Hypervolume (N) : 0.6268549727053669
+Hypervolume     : 0.0
+Epsilon (N)     : 0.3330427201394944
+Epsilon         : 3.8200000000000003
+GD (N)          : 0.6801845772866733
+GD              : 10.99869862425753
+IGD (N)         : 0.20658632976555977
+IGD             : 4.324780474417353
+IGD+ (N)        : 0.0588491717523976
+IGD+            : 0.6750000000000004
+Spread (N)      : 0.7751511344786216
+Spread          : 0.7995202058685975
+Error ratio     : 1.0
+
+
+
+12.400000000000002 59.81818181818182 
+11.8 92.11764705882354 
+
+
+
+237 249 1 47 3 3509 1997 571 139 23 
+127 194 1 65 3 3501 1812 570 197 22 
+114 163 1 60 2 3651 1758 476 149 17 
+265 226 2 55 1 3502 1990 575 143 24 
+170 144 1 54 2 3500 1995 572 180 23 
+247 641 9 90 1 3500 1990 574 142 24 
+237 255 1 47 3 3508 1997 571 139 23 

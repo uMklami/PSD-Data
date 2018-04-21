@@ -1,0 +1,166 @@
+low end , 
+
+
+List<Integer> lowerLimit = Arrays.asList(200, 200, 2, 50, 1, 1000, 500, 200, 100, 12);
+List<Integer> upperLimit = Arrays.asList( 3000, 3000, 20, 100, 3, 2000, 1000, 300, 200, 16);
+
+crossover - 0.8,mutation - 0.4, maxEva - 2500, population - 500
+
+
+
+
+2016-12-03 03:05:55.058 INFO: Loggers configured with null [org.uma.jmetal.util.JMetalLogger configureLoggers]
+2016-12-03 03:05:55.114 INFO: Total execution time: 392ms [org.uma.jmetal.runner.multiobjective.NSGAIIIntegerRunner main]
+20.36 : 52.57142857142857
+
+
+
+
+2016-12-03 03:05:55.129 INFO: Random seed: 1480705554605 [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:05:55.131 INFO: Objectives values have been written to file FUN.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:05:55.132 INFO: Variables values have been written to file VAR.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:05:55.156 INFO: 
+Hypervolume (N) : 0.0
+Hypervolume     : 0.0
+Epsilon (N)     : 1.079337401918047
+Epsilon         : 12.379999999999999
+GD (N)          : 1.4314580372091454
+GD              : 31.95595603348849
+IGD (N)         : 0.6257909371562368
+IGD             : 14.280406006087368
+IGD+ (N)        : 0.6261261261261261
+IGD+            : 7.181666666666665
+Spread (N)      : 0.8175380399817637
+Spread          : 0.8140825265815611
+Error ratio     : 1.0
+ [org.uma.jmetal.runner.AbstractAlgorithmRunner printQualityIndicators]
+
+ 
+ 
+ 2016-12-03 03:06:43.886 INFO: Loggers configured with null [org.uma.jmetal.util.JMetalLogger configureLoggers]
+2016-12-03 03:06:43.943 INFO: Total execution time: 411ms [org.uma.jmetal.runner.multiobjective.NSGAIIIntegerRunner main]
+
+16.980000000000004 : 85.75
+16.980000000000004 : 85.75
+
+
+
+16.980000000000004 : 85.75
+
+
+
+
+
+
+
+2016-12-03 03:06:43.960 INFO: Random seed: 1480705603375 [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:06:43.962 INFO: Objectives values have been written to file FUN.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:06:43.963 INFO: Variables values have been written to file VAR.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:06:43.982 INFO: 
+Hypervolume (N) : 0.10524349234026636
+Hypervolume     : 0.0
+Epsilon (N)     : 0.7846556233653011
+Epsilon         : 9.000000000000004
+GD (N)          : 1.3488592708790588
+GD              : 22.551013335191147
+IGD (N)         : 0.23823979576370755
+IGD             : 4.33007984957377
+IGD+ (N)        : 0.4264685215394657
+IGD+            : 5.551666666666669
+Spread (N)      : 0.903287013689257
+Spread          : 0.9777177289242203
+Error ratio     : 1.0
+ [org.uma.jmetal.runner.AbstractAlgorithmRunner printQualityIndicators]
+
+ 
+ //534 211 3 56 1 1065 959 263 121 12 
+340 215 2 72 3 1706 508 284 115 12 
+340 215 2 72 3 1706 508 284 115 12 
+//1319 538 4 91 2 1066 970 294 131 13 
+//660 1114 16 92 3 1000 992 240 102 16 
+//1955 601 3 77 2 1020 968 268 129 15 
+340 215 2 72 3 1706 508 284 115 12 
+//1175 251 5 60 1 1000 966 243 145 14 
+//534 205 3 56 1 1065 952 262 120 12 
+//1191 215 3 56 1 1067 973 244 102 12 
+//1615 1719 9 92 1 1000 981 241 106 13 
+//891 591 13 96 1 1008 929 265 111 12 
+//340 215 2 72 1 1084 930 284 115 12 
+//987 267 10 97 2 1023 924 261 106 12 
+
+2016-12-03 03:07:50.046 INFO: Loggers configured with null [org.uma.jmetal.util.JMetalLogger configureLoggers]
+2016-12-03 03:07:50.102 INFO: Total execution time: 373ms [org.uma.jmetal.runner.multiobjective.NSGAIIIntegerRunner main]
+
+
+
+18.840000000000003 : 80.14285714285714
+
+
+
+
+
+
+2016-12-03 03:07:50.116 INFO: Random seed: 1480705669579 [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:07:50.117 INFO: Objectives values have been written to file FUN.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:07:50.118 INFO: Variables values have been written to file VAR.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:07:50.138 INFO: 
+Hypervolume (N) : 0.03794921354950435
+Hypervolume     : 0.0
+Epsilon (N)     : 0.9468177855274633
+Epsilon         : 10.860000000000003
+GD (N)          : 1.4563038816307206
+GD              : 26.717685601238394
+IGD (N)         : 0.2937115212915495
+IGD             : 5.115341050804246
+IGD+ (N)        : 0.5071623985832241
+IGD+            : 5.890730003073156
+Spread (N)      : 0.9076561283584498
+Spread          : 0.9858718308296903
+Error ratio     : 1.0
+ [org.uma.jmetal.runner.AbstractAlgorithmRunner printQualityIndicators]
+
+ variable
+ 
+ 289 204 2 79 1 1658 509 207 180 14
+ 
+ 
+ 2016-12-03 03:08:38.557 INFO: Loggers configured with null [org.uma.jmetal.util.JMetalLogger configureLoggers]
+2016-12-03 03:08:38.609 INFO: Total execution time: 405ms [org.uma.jmetal.runner.multiobjective.NSGAIIIntegerRunner main]
+
+
+
+
+20.35 : 22.5
+
+
+16.72 : 31.133333333333333
+
+2016-12-03 03:08:38.628 INFO: Random seed: 1480705718091 [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:08:38.629 INFO: Objectives values have been written to file FUN.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:08:38.631 INFO: Variables values have been written to file VAR.tsv [org.uma.jmetal.runner.AbstractAlgorithmRunner printFinalSolutionSet]
+2016-12-03 03:08:38.654 INFO: 
+Hypervolume (N) : 0.23801220575414128
+Hypervolume     : 0.0
+Epsilon (N)     : 0.7619877942458587
+Epsilon         : 8.739999999999998
+GD (N)          : 0.9708355016843867
+GD              : 23.101449149967156
+IGD (N)         : 0.917574904640246
+IGD             : 22.543864901083136
+IGD+ (N)        : 0.34844521941296125
+IGD+            : 3.996666666666665
+Spread (N)      : 0.812819781291508
+Spread          : 0.8016300817788241
+Error ratio     : 1.0
+ [org.uma.jmetal.runner.AbstractAlgorithmRunner printQualityIndicators]
+
+ 
+ //353 249 3 77 1 1015 934 206 136 14 
+//399 276 2 80 1 1179 845 227 131 16 
+//533 368 3 76 1 1036 926 290 159 12 
+//282 352 3 79 3 1054 960 276 161 16 
+265 256 3 60 3 1000 680 213 163 12 
+//372 338 6 61 1 1015 997 260 135 14 
+//819 365 3 83 1 1020 996 289 116 12 
+211 230 2 90 2 1244 690 208 121 15 
+//399 274 2 53 1 1179 914 275 131 16 
